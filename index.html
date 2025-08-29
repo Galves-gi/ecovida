@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/css/configuracao.css">
+    <link rel="stylesheet" href="/css/pages.css">
+    <link rel="stylesheet" href="/css/responsivo.css">
+    <title>EcoVida - Seu Portal de Notícias</title>
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header class="flexivel">
+        <!-- logo -->
+        <a href="/index.html">
+            <img src="/assets/logo.png" alt="logo do portal escrito EcoVida" class="logo" loading="eager">
+        </a>
+        <!-- Menu desktop -->
+        <nav class="menu__desktop flexivel">
+            <ul>
+                <li>
+                    <a href="../index.html" class="botao botao-primario anima_zoom">Início</a>
+                </li>
+
+                <li>
+                    <a href="#noticias" class="botao botao-primario anima_zoom">Notícias</a>
+                </li>
+
+                <li>
+                    <a href="#sobre" class="botao botao-primario anima_zoom">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#formulario" class="botao botao-primario anima_zoom">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Menu para celulares -->
+        <details class="menu--mobile">
+            <!-- logo -->
+            <summary>
+                <img src="/assets/menu.png" alt="menu para mobile do portal" class="img-menu" loading="eager">
+            </summary>
+            <!-- menus celulares -->
+            <ul class="flexivel_coluna-centro">
+                <li>
+                    <a href="../index.html" class="botao botao-primario anima_zoom">Início</a>
+                </li>
+
+                <li>
+                    <a href="#noticias" class="botao botao-primario anima_zoom">Notícias</a>
+                </li>
+
+                <li>
+                    <a href="#sobre" class="botao botao-primario anima_zoom">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#formulario" class="botao botao-primario anima_zoom">Contato</a>
+                </li>
+            </ul>
+        </details>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero-section">
+        <div class="hero-conteudo">
+            <h1 class="titulo">Sem Amazônia, não há amanhã</h1>
+            <p class="subtitulo">A destruição da floresta ameaça a água, o ar e a vida de milhões de pessoas.</p>
+
+            <nav>
+                <a href="#" class="botao botao-secundario">Saiba Mais</a>
+            </nav>
+        </div>
+    </section>
+
+    <main class="flexivel_coluna-centro">
+        <!-- noticias destaque -->
+        <section class="noticias_destaque flexivel_coluna-centro">
+            <h2 class="subtitulo">Notícias em Destaque</h2>
+
+            <div class="flexivel_linha-centro sm_flexivel-coluna">
+
+                <figure class="noticias_col-esquerda figure-noticia">
+                    <img src="/assets/jabuticaba.jpg" alt="Imagem vertical">
+                    <figcaption>Produção de Jabuticaba cresce e fortalece agricultura familiar</figcaption>
+                </figure>
+
+                <div class="noticias_col-direita flexivel_coluna ">
+
+                    <figure class="figure-noticia">
+                        <img src="/assets/saude fisica.jpg" alt="Imagem quadrada 2" class="sm_itemflex-100 ">
+                        <figcaption>Atividade física reduz riscos de doenças crônicas</figcaption>
+                    </figure>
+
+                    <figure class="figure-noticia">
+                        <img src="/assets/reciclagem de plasticos.jpg" alt="Imagem horizontal" class="sm_itemflex-100 ">
+                        <figcaption>Reciclagem de plásticos transforma comunidades</figcaption>
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- noticias -->
+        <section id="noticias" class="noticias flexivel sm_reverter-flex">
+            <!--  <h1> Últimas Notícias</h1> -->
+            <div class="noticias_conteudo">
+                <!-- cartao -->
+                <article class="cartao_noticias">
+                    <!-- imagem noticia -->
+                    <img src="/assets/mineracao.jpg" alt="Imagem da matéria" />
+
+                    <!-- conteudo -->
+                    <div class="cartao_noticias-texto">
+                        <h2>Mineração em Minas Gerais</h2>
+                        <p>Desafia economia e sustentabilidade</p>
+                        <a href="#" class="botao botao-secundario">Saiba mais</a>
+                    </div>
+                </article>
+
+                <article class="cartao_noticias">
+                    <img src="/assets/turismo.jpg" alt="Imagem da matéria" />
+                    <div class="cartao_noticias-texto">
+                        <h2>Turismo no Brasil</h2>
+                        <p>Turismo sustentável cresce no Brasil e valoriza destinos ecológico
+                        </p>
+                        <a href="#" class="botao botao-secundario">Saiba mais</a>
+                    </div>
+                </article>
+
+                <article class="cartao_noticias">
+                    <img src="/assets/jabuticaba.jpg" alt="Imagem da matéria" />
+                    <div class="cartao_noticias-texto">
+                        <h2>Festival de Jabuticaba</h2>
+                        <p>Sabará celebra tradição e sustentabilidade no Festival da Jabuticaba</p>
+                        <a href="#" class="botao botao-secundario">Saiba mais</a>
+                    </div>
+                </article>
+
+                <!-- cartao -->
+                <article class="cartao_noticias">
+                    <!-- imagem noticia -->
+                    <img src="/assets/cafe.jpg" alt="Imagem da matéria" />
+
+                    <!-- conteudo -->
+                    <div class="cartao_noticias-texto">
+                        <h2>Café do Brasil para o Mundo</h2>
+                        <p>Café especial do Brasil conquista mercados internacionais</p>
+                        <a href="#" class="botao botao-secundario">Saiba mais</a>
+                    </div>
+                </article>
+
+                <!-- cartao -->
+                <article class="cartao_noticias">
+                    <!-- imagem noticia -->
+                    <img src="/assets/energia solar.jpg" alt="Imagem da matéria" />
+
+                    <!-- conteudo -->
+                    <div class="cartao_noticias-texto">
+                        <h2>Energia Solar</h2>
+                        <p>Minas Gerais lidera produção de energia solar no Brasil</p>
+                        <a href="#" class="botao botao-secundario">Saiba mais</a>
+                    </div>
+                </article>
+
+                <!-- cartao -->
+                <article class="cartao_noticias">
+                    <!-- imagem noticia -->
+                    <img src="/assets/aagricultura.jpg" alt="Imagem da matéria" />
+
+                    <!-- conteudo -->
+                    <div class="cartao_noticias-texto">
+                        <h2>Alimentos naturais potencializam a saúde física</h2>
+                        <p>Dietas ricas em frutas, verduras e grãos locais ajudam a manter energia e prevenir doenças.
+                        </p>
+                        <a href="#" class="botao botao-secundario">Saiba mais</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- lateral -->
+            <aside class="flexivel_coluna-centro">
+                <h3>clima</h3>
+                <!-- <figure>
+                    <img src="/assets/clima.jpg" alt="imagem de clima">
+                </figure> -->
+            </aside>
+        </section>
+
+        <!-- Seção: Sobre o Blog - EcoVida -->
+        <section id="sobre" class="sobre-blog flexivel_linha-centro sm_flexivel-coluna">
+            <figure class="itemflex-50 sm_itemflex-100 flexivel_coluna">
+                <img src="/assets/jardinagem.jpg" alt="">
+
+            </figure>
+
+            <div class="itemflex-50 sm_itemflex-100 flexivel_coluna">
+                <h2 class="subtitulo">Sobre o Blog</h2>
+
+                <p>O <strong>EcoVida</strong> nasceu para inspirar escolhas mais conscientes e aproximar você
+                    de temas que importam: meio ambiente, turismo sustentável, alimentação saudável e energias limpas.
+                    Publicamos reportagens, guias práticos e reflexões que mostram como pequenas atitudes transformam
+                    comunidades e protegem o futuro. Aqui o conhecimento é apresentado de forma acessível e útil — para
+                    que
+                    cuidar do planeta vire parte do dia a dia.</p>
+
+                <a href="#" class="botao botao-secundario">Saiba mais</a>
+            </div>
+
+        </section>
+    </main>
+    <!-- formulario -->
+    <article id="formulario" class="inscricao flexivel_coluna-centro">
+        <h2>
+            Fique por dentro!
+        </h2>
+        <p>
+            Assine nossa lista e receba conteúdos exclusivos, dicas e novidades direto no seu e-mail.
+        </p>
+
+        <form class="formulario flexivel_coluna">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required minlength="3">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required maxlength="255">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="4" rows="10" required maxlength="500"></textarea>
+
+            <button class="botao botao-secundario">Inscrever</button>
+        </form>
+    </article>
+
+    <!-- rodape -->
+    <footer class="flexivel_coluna">
+        <section class="flexivel sm_flexivel-coluna">
+            <!-- primeiro item flex -->
+            <div class="flexivel_coluna-centro itemflex-50 sm_itemflex-100 espaco_top ">
+                <!-- logo -->
+                <img src="/assets/logo.png" alt="logo" class=" logo">
+                <h5>
+                    © 2023 EcoVida. Todos os direitos reservados.
+                </h5>
+            </div>
+
+            <!-- segundo item flex -->
+            <div class="flexivel_coluna-centro sm_flexivel-coluna itemflex-50 sm_itemflex-100 espaco_top">
+                <!-- links rapidos -->
+                <ul class="flexivel_linha-centro sm_flexivel-coluna">
+                    <li>
+                        <a href="../index.html" class="botao">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="#noticias" class="botao">Notícias</a>
+                    </li>
+
+                    <li>
+                        <a href="#sobre" class="botao">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="#formulario" class="botao">Contato</a>
+                    </li>
+                </ul>
+                <!-- links redes sociais -->
+                
+                    <ul class="flexivel_linha-centro">
+                        <li class="anima_zoom"><i class="bi bi-facebook"></i></li>
+                        <li class="anima_zoom"><i class="bi bi-twitter espaco_lado"></i></li>
+                        <li class="anima_zoom"><i class="bi bi-instagram"></i></li>
+                        <li class="anima_zoom"><i class="bi bi-youtube espaco_lado"></i></li>
+                    </ul>
+                
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
