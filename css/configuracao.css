@@ -45,7 +45,6 @@ li {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 10%;
 }
 
 a {
@@ -163,6 +162,7 @@ header {
 }
 
 .menu__desktop>ul {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -180,4 +180,18 @@ header {
 /* rodape */
 footer {
     background-color:var(--cor-terciaria);
+}
+
+footer section{
+     padding: 2%;
+}
+.icone_rodape{
+    margin-top: 2%;
+    gap: 3em;
+}
+footer h5{
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #000000;
 }
