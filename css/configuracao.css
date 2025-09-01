@@ -1,5 +1,5 @@
 :root {
-    --cor-fundo: #fff9e6;
+    --cor-fundo: #d5f6cd;
     --cor-primaria: #164a41;
     --cor-secundaria: #F1b24a;
     --cor-terciaria: #4d774e;
@@ -28,6 +28,7 @@ h3 {
     font-weight: 400;
     font-style: normal;
     font-size: clamp(1.2rem, 3vw, 2rem);
+    margin-top: 1em;
 }
 
 .texto,
@@ -87,6 +88,7 @@ figure img {
 
 /* botão */
 .botao {
+    max-width: 10rem;
     width: 60%;
     padding: 0.5em 1em;
     text-align: center;
@@ -104,15 +106,16 @@ figure img {
 
 .botao-secundario {
     padding: 0.5em 1em;
+     border: 2px solid var(--cor-primaria);
     background-color: var(--cor-secundaria);
     color: black;
 }
 
 .botao-secundario:hover {
     padding: 0.5em 1em;
-    background-color: var(--cor-secundaria);
-    border: 2px solid var(--cor-primaria);
-    color: black;
+    background-color: var(--cor-terciaria);
+    border: 2px solid white;
+    color:white;
 }
 
 .texto-centro {
@@ -144,6 +147,7 @@ body {
 header {
     width: 100%;
     padding: 1% 5%;
+    box-sizing: border-box;
     background-color: var(--cor-detalhe);
     justify-content: space-around;
     align-items: center;
@@ -159,7 +163,6 @@ header {
 }
 
 .menu__desktop>ul {
-    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;

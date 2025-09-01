@@ -27,23 +27,23 @@
         </a>
         <!-- Menu desktop -->
         <nav class="menu__desktop flexivel">
-            <ul>
+            <!--       <ul>
                 <li>
-                    <a href="../index.html" class="botao botao-primario anima_zoom">Início</a>
+                    <a href="../index.html" class="botao botao-primario">Início</a>
                 </li>
 
                 <li>
-                    <a href="#noticias" class="botao botao-primario anima_zoom">Notícias</a>
+                    <a href="#noticias" class="botao botao-primario">Notícias</a>
                 </li>
 
                 <li>
-                    <a href="#sobre" class="botao botao-primario anima_zoom">Sobre</a>
+                    <a href="#sobre" class="botao botao-primario">Sobre</a>
                 </li>
 
                 <li>
-                    <a href="#formulario" class="botao botao-primario anima_zoom">Contato</a>
+                    <a href="#formulario" class="botao botao-primario">Contato</a>
                 </li>
-            </ul>
+            </ul> -->
         </nav>
 
         <!-- Menu para celulares -->
@@ -55,19 +55,19 @@
             <!-- menus celulares -->
             <ul class="flexivel_coluna-centro">
                 <li>
-                    <a href="../index.html" class="botao botao-primario anima_zoom">Início</a>
+                    <a href="../index.html" class="botao botao-primario">Início</a>
                 </li>
 
                 <li>
-                    <a href="#noticias" class="botao botao-primario anima_zoom">Notícias</a>
+                    <a href="#noticias" class="botao botao-primario ">Notícias</a>
                 </li>
 
                 <li>
-                    <a href="#sobre" class="botao botao-primario anima_zoom">Sobre</a>
+                    <a href="#sobre" class="botao botao-primario">Sobre</a>
                 </li>
 
                 <li>
-                    <a href="#formulario" class="botao botao-primario anima_zoom">Contato</a>
+                    <a href="#formulario" class="botao botao-primario">Contato</a>
                 </li>
             </ul>
         </details>
@@ -87,35 +87,41 @@
 
     <main class="flexivel_coluna-centro">
         <!-- noticias destaque -->
-        <section class="noticias_destaque flexivel_coluna-centro">
-            <h2 class="subtitulo">Notícias em Destaque</h2>
+        <section class="flexivel_coluna-centro">
+            <h2 class="subtitulo3">
+                Notícias Em Destaque
+            </h2>
+            <div class="noticias_destaque">
 
-            <div class="flexivel_linha-centro sm_flexivel-coluna">
-
-                <figure class="noticias_col-esquerda figure-noticia">
-                    <img src="/assets/jabuticaba.jpg" alt="Imagem vertical">
+                <!-- imaagem quadrado maior -->
+                <figure class="figure-noticia noticias_col-esquerda col-esquerda-quadrado">
+                    <img src="/assets/jabuticaba.jpg" alt="noticias" class="col-esquerda-quadrado">
                     <figcaption>Produção de Jabuticaba cresce e fortalece agricultura familiar</figcaption>
                 </figure>
+                <!-- imaagem retangulo -->
+                <div class="figure-noticia noticias_col-direita">
+                    <figure class="col-direita-retangulo">
 
-                <div class="noticias_col-direita flexivel_coluna ">
+                        <img src="/assets/reciclagem de plasticos.jpg" alt="noticias" class="retangulo">
 
-                    <figure class="figure-noticia">
-                        <img src="/assets/saude fisica.jpg" alt="Imagem quadrada 2" class="sm_itemflex-100 ">
-                        <figcaption>Atividade física reduz riscos de doenças crônicas</figcaption>
+                        <figcaption>
+                            Reciclagem de plásticos transforma comunidades
+                        </figcaption>
                     </figure>
 
-                    <figure class="figure-noticia">
-                        <img src="/assets/reciclagem de plasticos.jpg" alt="Imagem horizontal" class="sm_itemflex-100 ">
-                        <figcaption>Reciclagem de plásticos transforma comunidades</figcaption>
-                    </figure>
+                    <figure class="col-direita-retangulo">
+                        <img src="/assets/saude fisica.jpg" alt="noticias" class="retangulo">
 
+                        <figcaption>
+                            Atividade física reduz riscos de doenças crônicas
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
 
         <!-- noticias -->
         <section id="noticias" class="noticias flexivel sm_reverter-flex">
-            <!--  <h1> Últimas Notícias</h1> -->
             <div class="noticias_conteudo">
                 <!-- cartao -->
                 <article class="cartao_noticias">
@@ -191,11 +197,17 @@
             </div>
 
             <!-- lateral -->
-            <aside class="flexivel_coluna-centro">
-                <h3>clima</h3>
-                <!-- <figure>
-                    <img src="/assets/clima.jpg" alt="imagem de clima">
-                </figure> -->
+            <aside class="flexivel_coluna">
+                <div class="flexivel_coluna-centro clima"> 
+                    <img src="/assets/clima_temperatura.png" alt="">
+
+                    <h3 class="subtitulo3">
+                        21°
+                    </h3>
+                    <img src="/assets/clima caracteristicas.png" alt="">
+                    <img src="/assets/clima semana.png" alt="">
+                </div>
+
             </aside>
         </section>
 
@@ -259,7 +271,7 @@
             <!-- segundo item flex -->
             <div class="flexivel_coluna-centro sm_flexivel-coluna itemflex-50 sm_itemflex-100 espaco_top">
                 <!-- links rapidos -->
-                <ul class="flexivel_linha-centro sm_flexivel-coluna">
+                <!--   <ul class="flexivel_linha-centro sm_flexivel-coluna">
                     <li>
                         <a href="../index.html" class="botao">Início</a>
                     </li>
@@ -275,16 +287,16 @@
                     <li>
                         <a href="#formulario" class="botao">Contato</a>
                     </li>
-                </ul>
+                </ul> -->
                 <!-- links redes sociais -->
-                
-                    <ul class="flexivel_linha-centro">
-                        <li class="anima_zoom"><i class="bi bi-facebook"></i></li>
-                        <li class="anima_zoom"><i class="bi bi-twitter espaco_lado"></i></li>
-                        <li class="anima_zoom"><i class="bi bi-instagram"></i></li>
-                        <li class="anima_zoom"><i class="bi bi-youtube espaco_lado"></i></li>
-                    </ul>
-                
+
+                <ul class="flexivel_linha-centro">
+                    <li class="anima_zoom"><i class="bi bi-facebook"></i></li>
+                    <li class="anima_zoom"><i class="bi bi-twitter espaco_lado"></i></li>
+                    <li class="anima_zoom"><i class="bi bi-instagram"></i></li>
+                    <li class="anima_zoom"><i class="bi bi-youtube espaco_lado"></i></li>
+                </ul>
+
             </div>
         </section>
     </footer>
