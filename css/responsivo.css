@@ -67,7 +67,7 @@
     .menu--mobile[open]::details-content {
         width: 100%;
         height: 100vh;
-        background: var(--cor-detalhe);
+        background: #003B13;
         position: fixed;
         top: 0;
         left: 0;
@@ -83,7 +83,11 @@
         margin-top: 10%;
     }
 
-    footer section div ul{
+    .menu--mobile>ul>li>a {
+        color: white;
+    }
+
+    footer section div ul {
         width: 100%;
         margin: 1% 0;
     }

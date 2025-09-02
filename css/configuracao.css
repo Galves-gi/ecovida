@@ -1,5 +1,5 @@
 :root {
-    --cor-fundo: #c5f8b8;
+    --cor-fundo: #d8fadb;
     --cor-primaria: #164a41;
     --cor-secundaria: #F1b24a;
     --cor-terciaria: #4d774e;
@@ -112,7 +112,7 @@ figure img {
 
 .botao-secundario:hover {
     padding: 0.5em 1em;
-    background-color: var(--cor-terciaria);
+    background-color: #003B13;
     border: 2px solid white;
     color:white;
 }
@@ -147,7 +147,7 @@ header {
     width: 100%;
     padding: 1% 3%;
     box-sizing: border-box;
-    background-color: var(--cor-detalhe);
+    background-color: #003B13;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -169,6 +169,7 @@ header {
 }
 
 .menu__desktop> ul> li > a{
+    color: white;
     font-family: "Funnel Display", sans-serif;
 }
 
@@ -183,15 +184,20 @@ header {
 
 /* rodape */
 footer {
-    background-color:var(--cor-terciaria);
+    background-color:#024713;
 }
 
 footer section{
      padding: 2%;
 }
+footer section div ul li a{
+    color: white;
+}
 .icone_rodape{
+    max-width: 100%;
+    color: white;
     margin-top: 2%;
-    gap: 3em;
+    gap: 2em;
 }
 footer h5{
     width: 100%;
