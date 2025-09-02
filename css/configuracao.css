@@ -1,5 +1,5 @@
 :root {
-    --cor-fundo: #d5f6cd;
+    --cor-fundo: #c5f8b8;
     --cor-primaria: #164a41;
     --cor-secundaria: #F1b24a;
     --cor-terciaria: #4d774e;
@@ -134,7 +134,7 @@ figure img {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    scrollbar-color: #fff9e6 green;
+    scrollbar-color: green #c5f8b8;
 }
 
 body {
@@ -145,10 +145,10 @@ body {
 /* cabeçalho */
 header {
     width: 100%;
-    padding: 1% 5%;
+    padding: 1% 3%;
     box-sizing: border-box;
     background-color: var(--cor-detalhe);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
@@ -164,8 +164,12 @@ header {
 .menu__desktop>ul {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.menu__desktop> ul> li > a{
+    font-family: "Funnel Display", sans-serif;
 }
 
 .logo {
